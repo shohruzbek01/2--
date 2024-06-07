@@ -1,0 +1,36 @@
+.banner{
+    width: 100%;
+    &-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+       &-title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        color: black;
+        max-width: 428px;
+       }
+       &-subtitle{
+        max-width: 550px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;     
+        color: #00000075;
+       }
+       &-button{
+        width: 200px;
+        height: 58px;
+        border-radius: 10px; 
+        background-color: #682C0E;
+        &-text{
+            color: aliceblue;
+            font-size: 20px;
+            font-weight: 700;
+           display: flex;
+           align-items: center;
+           justify-content: center  ;
+        }
+       }
+}
